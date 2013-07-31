@@ -1,0 +1,1 @@
+# CodeForAll.de Static Website
