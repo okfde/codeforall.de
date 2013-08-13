@@ -2,8 +2,9 @@ body {
   padding-top: 20px;
   padding-bottom: 40px;
   font-size: 15px;
-  color: #333;
+  color: #555555;
   font-family: 'Open Sans', sans-serif;
+  background-color: #f7f7f7;
 }
 
 /* Custom container */
@@ -16,7 +17,7 @@ body {
 }
 
 a, a:visited {
-  color: #2980b9;
+  color: #339DD7;
 }
 
 a:hover {
@@ -26,7 +27,7 @@ a:hover {
 .contact-button, .contact-button:visited {
   float: right;
   color: #fff;
-  background-color: #2980b9;
+  background-color: #339DD7;
   padding: 10px 20px;
   font-weight: bold;
   font-size: 18px;
@@ -39,10 +40,12 @@ a:hover {
   text-decoration: none;
 }
 
+.explanation {
+  font-size: 13px;
+}
+
 .jumbotron {
-  padding: 10px 30px 10px;
   color: #fff;
-  background-color: #2980b9;
 }
 
 .jumbotron h1 {
@@ -65,16 +68,22 @@ a:hover {
 }
 
 .quote {
-  margin: 3em 0;
-  color: #555;
-  border-left: 0px solid #fff;
+  margin: 3em 0 1em;
+  padding: 0;
+  color: #339DD7;
+  border-left: 0 solid #fff;
   quotes: '\201E' '\201C';
+  font-family: 'Fauna One', serif;
 }
 
 .quote2 {
-  margin: 3em 0;
-  color: #000000;
-  border-left: 0px solid #fff;
+  padding: 0 15px 0 0;
+  margin: 2em 0 3em;
+  color: #339DD7;
+  border-left: 0 solid #fff;
+  font-family: 'Fauna One', serif;
+  font-size: 15px;
+  text-align: right;
 }
 
 .quote p, .quote small {
@@ -93,13 +102,14 @@ a:hover {
 
 .quote:before {
   content: open-quote;
-  font-size:4em;
+  font-size:6em;
   line-height:.1em;
   margin-right:.25em;
 }
+
 .quote:after {
   content: close-quote;
-  font-size:4em;
+  font-size:6em;
   line-height:.1em;
   margin-right:0.25em;
   float: right;
@@ -110,18 +120,50 @@ a:hover {
 }
 
 .section h3 {
+  font-size: 22.5px;
   margin-bottom: 0;
-  background-color: #2980b9;
+  background-color: #339DD7;
   display: inline-block;
   padding: 3px 15px;
   color: #fff;
   text-transform: uppercase;
   position: relative;
+  letter-spacing: 1.3px;
   /*top: 3px;*/
 }
 
+.section-example {
+  margin-bottom: 2em;
+}
+
+.section-example p {
+  margin: 1em 0 1em;
+}
+
+.section-example h4 {
+  padding-left: 38px;
+  text-transform: uppercase;
+}
+
+.more-part {
+  background: #fff;
+}
+
+.more-link {
+  display: block;
+  background: url('/img/mehr-09.png') 50% 50% no-repeat;
+  height: 3em;
+  margin: 0 auto;
+}
+
+.section-example .thumbnail {
+  background-color: #339DD7;
+  color: #fff;
+  padding: 0 10px 0;
+}
+
 .inside {
-  background-color: #f7f7f7;
+  background-color: #fff;
   color: #555;
   padding: 10px 15px;
 }
@@ -131,7 +173,7 @@ a:hover {
 }
 
 .contact {
-  background-color: #2980b9;
+  background-color: #339DD7;
   color: #fff;
 }
 
@@ -143,6 +185,29 @@ a:hover {
   color: #fff;
 }
 
+.email-section {
+  background: #fff url('/img/brief-08.png') 10px 10px no-repeat;
+  padding: 10px 10px 10px 120px;
+}
+
+.email-section .email-input {
+  background-color: #339DD7;
+  color: #fff;
+}
+
+.email-section .email-input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #eee;
+}
+.email-section .email-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #eee;
+}
+.email-section .email-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #eee;
+}
+.email-section .email-input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #eee;
+}
+
 .footer a:hover {
   text-decoration:none;
 }
@@ -151,16 +216,4 @@ a:hover {
   text-align:left;
   margin-bottom:0.5em;
   padding-top: 10px;
-}
-
-.footer .span7 {
-	text-align: right;
-}
-
-.footer .span7 a {
-	margin-left: 20px;
-}
-
-.footer2 {
-  margin-left: 410px;
 }
