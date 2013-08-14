@@ -156,6 +156,22 @@ a:hover {
   margin: 0 auto;
 }
 
+.modal-header {
+  background-color: #2980b9;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.modal-header h3 {
+  text-align: center;
+}
+
+.modal-image {
+  margin: 1em 0 1em;
+  text-align: center;
+}
+
+
 .section-example .thumbnail {
   background-color: #339DD7;
   color: #fff;
@@ -206,6 +222,10 @@ a:hover {
 }
 .email-section .email-input:-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #eee;
+}
+
+.email-field {
+  padding-top: 22px;
 }
 
 .footer a:hover {
