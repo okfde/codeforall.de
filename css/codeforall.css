@@ -128,7 +128,7 @@ a:hover {
   color: #fff;
   text-transform: uppercase;
   position: relative;
-  letter-spacing: 1.3px;
+  letter-spacing: 0.7px;
   /*top: 3px;*/
 }
 
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .section-example h4 {
-  padding-left: 38px;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -163,6 +163,10 @@ a:hover {
 }
 
 .modal-header h3 {
+  text-align: center;
+}
+
+.modal-header h4 {
   text-align: center;
 }
 
